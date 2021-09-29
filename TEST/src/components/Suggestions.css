@@ -1,0 +1,19 @@
+.suggestions {
+  list-style-type: none;
+  max-height: 200px;
+  height: 100%;
+  overflow-y: auto;
+}
+.suggestions > li {
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.suggestions > li:hover,
+.suggestions > li:focus,
+.suggestions > li.active {
+  background-color: gray;
+}
+.suggestions p {
+  text-align: center;
+}
